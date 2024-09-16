@@ -36,6 +36,7 @@ RUN <<EOF
         python3-pyyaml \
         python3-ruamel-yaml \
         python3-wheel \
+        pinentry \
         --exclude container-selinux
     dnf clean all
 EOF

@@ -12,7 +12,7 @@ on:
 
 jobs:
   build:
-    runs-on: devtools-multiarch-builder
+    runs-on: ubuntu-latest
 
     steps:
       - name: Login to GitHub Container Registry
